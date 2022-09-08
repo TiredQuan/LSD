@@ -1,0 +1,256 @@
+.message-banner {
+  width: 100%;
+  line-height: 60px;
+}
+.description-banner {
+  color: #ffffff;
+}
+.image-banner img {
+  width: 100% !important;
+}
+.introducetion .item-intro {
+  display: flex;
+  justify-content: end;
+}
+.introducetion {
+  background: #2a2550;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  padding: 15px 70px 15px 70px;
+  margin-top: 80px;
+}
+.introducetion .item-intro {
+  position: relative;
+}
+.introducetion .item-intro:nth-last-child(odd) {
+  margin-top: 60px;
+}
+.introducetion .item-intro:nth-last-child(odd) .row {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.introducetion .item-intro:nth-last-child(odd) .row > div:first-child {
+  display: flex;
+  justify-content: end;
+}
+.introducetion .item-intro:nth-last-child(odd) .image {
+  position: static;
+  margin-right: 0px !important;
+}
+.introducetion .image {
+  position: absolute;
+  width: 268px;
+  height: 269px;
+  top: -30%;
+}
+.introducetion .image img {
+  width: 100%;
+}
+.commit {
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+.item-commit,
+.main-commit .title-cate {
+  margin-top: 65px;
+}
+.item-commit .title {
+  position: relative;
+  margin-left: 26px;
+  line-height: 40px;
+}
+.number-commit {
+  position: absolute;
+  left: -12%;
+  top: 22%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: SVM-MontBold;
+}
+.instro-commit.respon {
+  display: none;
+}
+.teams {
+  color: #ffffff;
+}
+.image-member {
+  width: 100%;
+  height: 265px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.image-teams {
+  background-image: url("/assets/image/normal/rectangle.png");
+  background-size: cover;
+  background-position: center;
+}
+.info-contact .item-contact {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.item-contact:hover i {
+  cursor: pointer;
+  color: #ffb70d !important;
+  transition: all 0.5s ease;
+}
+.info-contact .item-contact i {
+  color: #ffffff;
+  font-size: 12px;
+}
+.position,
+.name-member {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+}
+.list-member .intro-teams .content {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+@media (max-width: 992px) {
+  .introducetion {
+    padding: 15px 50px 15px 50px;
+    height: auto;
+    margin-top: 100px;
+  }
+  .introducetion .image {
+    width: 245px;
+    height: 245px;
+  }
+  .number-commit {
+    left: -15%;
+  }
+  .image-member {
+    height: 220px;
+  }
+  .list-member .intro-teams .content {
+    font-size: 16px;
+  }
+  .position,
+  .name-member {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .image-banner {
+    margin-top: 20px;
+  }
+  .introducetion {
+    padding: 0;
+    background-color: transparent;
+  }
+  .introducetion .image {
+    width: 220px;
+    height: 220px;
+  }
+  .introducetion .item-intro {
+    background: #2a2550;
+    border-radius: 20px;
+    padding: 80px 30px 50px 30px;
+  }
+  .introducetion .item-intro:nth-last-child(odd) {
+    margin-top: 120px;
+  }
+  .introducetion .item-intro:nth-last-child(odd) > div:first-child {
+    display: flex;
+    justify-content: end;
+  }
+  .introducetion .item-intro:nth-last-child(odd) .image {
+    position: absolute;
+  }
+  .introducetion .item-intro:nth-last-child(odd) .title-cate {
+    display: flex;
+    justify-content: start;
+  }
+  .content-intro {
+    margin-top: 80px;
+  }
+  .introducetion .title-cate {
+    display: flex;
+    justify-content: right;
+  }
+  .introducetion .image {
+    top: -20%;
+  }
+  .instro-commit {
+    display: none;
+  }
+  .image-member {
+    height: 280px;
+  }
+  .item-commit .title {
+    margin-left: 30px;
+  }
+  .instro-commit.respon {
+    display: block;
+    margin-top: 50px;
+  }
+  .introducetion .item-intro:nth-last-child(odd) .row {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  .image-banner img {
+    margin-top: 20px !important;
+  }
+  .introducetion .image {
+    width: 150px;
+    height: 150px;
+  }
+  .introducetion .item-intro {
+    padding: 60px 20px 30px 20px;
+  }
+  .content-intro {
+    margin-top: 40px;
+  }
+  .item-commit,
+  .main-commit .title-cate {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 405px) {
+  .image-member {
+    height: 200px;
+  }
+  .introducetion .image {
+    width: 100px;
+    height: 100px;
+  }
+  .introducetion {
+    margin-top: 30px;
+  }
+  .content-intro {
+    margin-top: 25px;
+  }
+  .introducetion .item-intro {
+    padding: 40px 20px 30px 20px;
+  }
+  .introducetion .image {
+    display: none;
+  }
+  .introducetion .item-intro:nth-last-child(odd) {
+    margin-top: 65px;
+  }
+  .message-banner {
+    font-size: 35px !important;
+  }
+  .position,
+  .name-member {
+    font-size: 14px;
+  }
+  .info-contact .item-contact {
+    width: 20px;
+    height: 20px;
+  }
+  .info-contact .item-contact i {
+    font-size: 10px;
+  }
+}
