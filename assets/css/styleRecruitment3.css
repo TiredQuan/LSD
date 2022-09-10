@@ -1,0 +1,23 @@
+.name-project {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #e8a712;
+  }
+  #main{
+    width: 70% !important;
+    margin: 0 auto;
+}
+.recruitInfo {
+    width: 100%;
+    background: #2a2550;
+    border-radius: 20px;
+    padding: 25px 35px;
+    margin-bottom: 25px;
+  }
+  .font-wrap{
+    margin-right: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
