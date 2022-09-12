@@ -24,7 +24,6 @@
 
 /* copied */
 .modern-form {
-  width: 500px;
   margin: 30px auto;
   padding: 20px 10px;
 }
@@ -50,9 +49,10 @@
   font-size: 18px;
   background-color: transparent;
   border-bottom: solid 1px #efefef;
+  color: white;
 }
 .float-label-field select>option{
-  color: #2a2550;
+  background-color: #2a2550;
 }
 
 .float-label-field label {
