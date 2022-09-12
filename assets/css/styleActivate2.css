@@ -1,0 +1,15 @@
+.name-project {
+    font-weight: 600;
+    line-height: 30px;
+    color: #e8a712;
+}
+
+.image-project{
+    height: 160px;
+}
+
+@media (max-width: 576px) {
+    .image-project{
+        height: 250px;
+    }
+}
